@@ -1,0 +1,96 @@
+/* insipration this dribble: https://dribbble.com/shots/5041745-Switcher , mine only rotates switch one way as i'm using CSS only */
+/* no margin so the background is shown full page */
+
+html,
+body {
+    margin: 0 auto;
+}
+
+/* To set the checkbox in Center of the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* a background used instead of body to change the background color */
+.background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: #ccc;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+/* To hide the checkbox */
+input[type='checkbox'] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+/* Setting up Outer shape, size and background color of Toggle switch,  */
+label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 200px;
+    height: 100px;
+    background: #fff;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+    transition: all 0.5s;
+    box-shadow:
+
+    /* Tried to make a 4 layred shadow for more depth */
+  1.6px 1.6px 7.3px rgba(0, 0, 0, 0.022),
+  5px 5px 14.6px rgba(0, 0, 0, 0.039),
+  12.3px 12.3px 25.3px rgba(0, 0, 0, 0.056),
+  30px 30px 61px rgba(0, 0, 0, 0.08)
+;
+}
+/* a dummy div that allows it to rotate opposite to the label, normally this would be in the label:after 
+
+Setting up positon, size and color of toggle switch's inner part
+
+Setting up transistion*/
+.s {
+    position: absolute;
+    right: 50.1vw;
+    width: 85px;
+    height: 85px;
+    background: #ccc;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform-origin: 105% 50%;
+    pointer-events: none;
+}
+
+/* label rotates clickwise
+
+Making a illuminated effect around the toggle switch
+*/
+input:checked + label {
+    transform: rotate(180deg);
+    box-shadow:
+  0px 0px 9.2px rgba(255, 252, 252, 0.116),
+  0px 0px 17.2px rgba(206, 203, 203, 0.223),
+  0px 0px 27.2px rgba(202, 188, 188, 0.484),
+  0px 0px 62px rgba(221, 198, 198, 0.097)
+;
+}
+
+/* dummy switch goes anti-clockwise */
+input:checked ~ .s {
+    transform: rotate(-180deg);
+    background: #262424;
+}
+
+/* can't change the body here so this is why background was created  */
+
+input:checked ~ .background {
+    background: #262424;
+}
+
