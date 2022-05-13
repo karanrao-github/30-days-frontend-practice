@@ -6,7 +6,7 @@
 
 Day	  | Project  | Code
 ------ | ----------- | ---
-1 | Glowing Neon Buttons | [Day 1](karanrao-github/30-days-frontend-practice/tree/main/Day%201)
+1 | Glowing Neon Buttons | [Day 1](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%201)
 2| Neumorphism Login Form |
 3| Responsive Task Management Dashboard |
 4|Side Navigation Bar |
