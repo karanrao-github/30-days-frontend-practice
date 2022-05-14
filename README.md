@@ -28,8 +28,7 @@ Day	  | Project  | Code
 20|Animated Search Bar | [Day 20](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%2020)
 21|3D Button Hover Animation | [Day 21](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%2021)
 22|Amazing Profile Cards Design | [Day 22](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%2022)
-22|Amazing Profile Cards Design | [Day 22](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%2023)
-23|Button with Animated Border | 
+23|Button with Animated Border | [Day 23](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%2023)
 24|Amazing Profile Cards Design
 25|Image Hover Effects
 26|CSS Button Hover Effect
