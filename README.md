@@ -37,7 +37,7 @@ Day	  | Project  | Code
 23|Button with Animated Border | [Day 23](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%2023)
 24|Amazing Profile Cards Design | [Day 24](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%2024)
 25|Image Hover Effects | [Day 25](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%2025)
-26|CSS Button Hover Effect
+26|CSS Button Hover Effect | [Day 26](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%2026)
 27|CSS Image Hover Effect
 28|Awesome CSS Button Hover Effect
 29|Awesome CSS Card Hover Effects
