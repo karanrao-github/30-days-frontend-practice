@@ -1,0 +1,45 @@
+body {
+    background-color: #2a2828;
+    font-weight: bold;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn {
+    background: transparent;
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    padding: 0 40px;
+    display: inline-block;
+    margin: 15px 30px;
+    line-height: 2.7em;
+    letter-spacing: 1.5px;
+    outline: none;
+    position: relative;
+    font-size: 1rem;
+    border: 3px solid #fff;
+    border-radius: 15px 0 15px 15px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#btn:before {
+    content: '';
+    position: absolute;
+    border-width: 0 33px 33px 0;
+    border-color: transparent orange transparent transparent;
+    border-style: solid;
+    right: -3px;
+    top: -3px;
+    width: 0;
+    height: 0;
+    z-index: 1;
+}
+
+#btn:hover,
+#btn.hover {
+    border-color: orange;
+}
