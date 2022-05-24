@@ -3,7 +3,7 @@
 ### Introduction 
 This a comprensive list of small projects which will help you in practicing HTML and CSS. 
 You don't need to memorise each and every component of CSS just use google or startpage to search for it.
->**NOTE:** Don't copy and paste these code, **type it manually** and try to understant which component is used and how could you use it to make something of your own.
+>**NOTE:** Don't copy and paste these code, **type it manually** and try to understant which component are used and how could you use it to make something of your own.
 
 > **Orignial Artical Link:**_https://www.futurecodersweb.com/search/label/HTML%20and%20CSS_
 
