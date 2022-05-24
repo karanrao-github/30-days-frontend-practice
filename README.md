@@ -39,6 +39,6 @@ Day	  | Project  | Code
 25|Image Hover Effects | [Day 25](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%2025)
 26|CSS Button Hover Effect | [Day 26](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%2026)
 27|CSS Image Hover Effect | [Day 27](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%2027)
-28|Awesome CSS Button Hover Effect
+28|Awesome CSS Button Hover Effect | [Day 28](https://github.com/karanrao-github/30-days-frontend-practice/tree/main/Day%2028)
 29|Awesome CSS Card Hover Effects
 30|Responsive CSS Cards
